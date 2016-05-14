@@ -1,0 +1,32 @@
+{
+  "name": "Food",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fridgeId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dateExpire": {
+      "type": "date"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "image": {
+      "type": "string"
+    },
+    "aisle": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
