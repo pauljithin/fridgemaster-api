@@ -35,5 +35,9 @@
   "fmUser": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Fridge": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
