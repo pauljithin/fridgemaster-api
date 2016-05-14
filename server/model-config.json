@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "fmUser": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }
