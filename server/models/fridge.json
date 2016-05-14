@@ -17,7 +17,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "fridge_food": {
+      "type": "hasMany",
+      "model": "Food",
+      "foreignKey": "fridgeId"
+    }
+  },
   "acls": [],
   "methods": {}
 }

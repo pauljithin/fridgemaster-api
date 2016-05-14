@@ -7,7 +7,13 @@
   },
   "properties": {},
   "validations": [],
-  "relations": {},
+  "relations": {
+    "fmUser_fridge": {
+      "type": "hasOne",
+      "model": "Fridge",
+      "foreignKey": "fmUserId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
