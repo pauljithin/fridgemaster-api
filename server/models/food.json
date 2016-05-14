@@ -16,7 +16,7 @@
       "type": "date"
     },
     "amount": {
-      "type": "number"
+      "type": "string"
     },
     "image": {
       "type": "string"
