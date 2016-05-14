@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV!=='production')
+  var config = require('../dev.config.js');
+
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
