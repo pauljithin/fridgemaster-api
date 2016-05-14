@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
-    "start": "node .",
+    "start": "node server/server.js",
     "pretest": "jshint .",
     "posttest": "nsp check"
   },
@@ -26,6 +26,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
+  "license": "MIT LICENSE",
   "description": "fridgemaster-api"
 }
